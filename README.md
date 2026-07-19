@@ -50,7 +50,7 @@ The measured values are:
 
 All values are presented as: `median`<sub>±`median absolute deviation`</sub>.
 
-UPDATE: 2025-08-17
+UPDATE: 2026-07-19
 
 # Test Cases
 
@@ -391,30 +391,30 @@ Notes:
 
 |               Language |                Time, s |                                       Memory, MiB |              Energy, J |
 | :--------------------- | ---------------------: | ------------------------------------------------: | ---------------------: |
-|                C++/g++ | 0.064<sub>±0.000</sub> |    3.62<sub>±00.00</sub> + 85.55<sub>±00.44</sub> |  2.57<sub>±00.06</sub> |
-|                     Go | 0.070<sub>±0.000</sub> |     3.62<sub>±00.00</sub> + 0.00<sub>±00.00</sub> |  3.09<sub>±00.09</sub> |
-|                    Zig | 0.071<sub>±0.000</sub> |    1.50<sub>±00.12</sub> + 64.69<sub>±00.06</sub> |  2.94<sub>±00.01</sub> |
-|            C++/clang++ | 0.075<sub>±0.000</sub> |    3.25<sub>±00.00</sub> + 64.48<sub>±00.19</sub> |  2.90<sub>±00.06</sub> |
-|                V/clang | 0.100<sub>±0.000</sub> |   2.12<sub>±00.00</sub> + 200.44<sub>±00.69</sub> |  4.18<sub>±00.08</sub> |
-|                   Rust | 0.102<sub>±0.000</sub> |    2.00<sub>±00.00</sub> + 74.25<sub>±00.12</sub> |  4.05<sub>±00.06</sub> |
-|                  V/gcc | 0.106<sub>±0.001</sub> |   2.25<sub>±00.00</sub> + 211.06<sub>±02.06</sub> |  4.52<sub>±00.05</sub> |
-|                   Java | 0.113<sub>±0.000</sub> |  41.79<sub>±00.14</sub> + 107.88<sub>±03.81</sub> |  6.06<sub>±00.22</sub> |
-|                Crystal | 0.144<sub>±0.000</sub> |    3.50<sub>±00.00</sub> + 89.88<sub>±00.00</sub> |  5.91<sub>±00.10</sub> |
-|                  Scala | 0.184<sub>±0.004</sub> |  66.51<sub>±00.15</sub> + 158.44<sub>±02.00</sub> | 10.67<sub>±00.30</sub> |
-|                Node.js | 0.216<sub>±0.001</sub> |  46.88<sub>±00.06</sub> + 227.55<sub>±04.77</sub> | 10.68<sub>±00.15</sub> |
-|                Nim/gcc | 0.293<sub>±0.000</sub> |   1.75<sub>±00.12</sub> + 582.06<sub>±01.00</sub> | 11.25<sub>±00.17</sub> |
-|              Nim/clang | 0.295<sub>±0.001</sub> |   2.00<sub>±00.00</sub> + 603.44<sub>±05.06</sub> | 11.62<sub>±00.12</sub> |
-|             Lua/luajit | 0.305<sub>±0.001</sub> |   2.50<sub>±00.00</sub> + 157.22<sub>±01.05</sub> | 12.36<sub>±00.17</sub> |
-|                  Julia | 0.419<sub>±0.002</sub> | 258.38<sub>±00.12</sub> + 215.71<sub>±03.03</sub> | 16.24<sub>±00.31</sub> |
-|            Python/pypy | 0.617<sub>±0.003</sub> |  59.62<sub>±00.12</sub> + 247.16<sub>±00.04</sub> | 25.09<sub>±00.34</sub> |
-|                 Racket | 0.757<sub>±0.004</sub> | 109.51<sub>±00.71</sub> + 248.35<sub>±01.07</sub> | 30.05<sub>±00.58</sub> |
-|       Ruby/truffleruby | 0.910<sub>±0.010</sub> | 197.81<sub>±01.44</sub> + 672.44<sub>±54.69</sub> | 61.70<sub>±00.61</sub> |
-|                    Lua | 1.230<sub>±0.005</sub> |   2.56<sub>±00.06</sub> + 283.84<sub>±00.75</sub> | 50.66<sub>±00.69</sub> |
-|           Ruby (--jit) | 1.289<sub>±0.014</sub> |  23.96<sub>±00.03</sub> + 174.84<sub>±00.31</sub> | 54.03<sub>±01.54</sub> |
-| Ruby/truffleruby (JVM) | 1.363<sub>±0.033</sub> | 350.78<sub>±04.33</sub> + 506.71<sub>±28.12</sub> | 88.50<sub>±02.14</sub> |
-|             Ruby/jruby | 1.491<sub>±0.021</sub> | 250.45<sub>±00.62</sub> + 577.06<sub>±02.31</sub> | 80.03<sub>±01.19</sub> |
-|                   Ruby | 1.992<sub>±0.027</sub> |  12.12<sub>±00.00</sub> + 183.69<sub>±00.50</sub> | 85.16<sub>±02.19</sub> |
-|                 Python | 2.096<sub>±0.012</sub> |  11.44<sub>±00.06</sub> + 181.46<sub>±01.00</sub> | 90.37<sub>±01.30</sub> |
+|                    Zig | 0.064<sub>±0.000</sub> |    1.99<sub>±00.02</sub> + 67.01<sub>±00.19</sub> |   2.65<sub>±00.02</sub> |
+|                C++/g++ | 0.064<sub>±0.001</sub> |    4.13<sub>±00.07</sub> + 86.26<sub>±00.21</sub> |   2.55<sub>±00.04</sub> |
+|            C++/clang++ | 0.066<sub>±0.000</sub> |    3.50<sub>±00.06</sub> + 63.30<sub>±00.15</sub> |   2.65<sub>±00.03</sub> |
+|                     Go | 0.070<sub>±0.001</sub> |     4.24<sub>±00.03</sub> + 0.00<sub>±00.00</sub> |   3.29<sub>±00.06</sub> |
+|                   Rust | 0.098<sub>±0.000</sub> |    2.22<sub>±00.04</sub> + 72.94<sub>±00.02</sub> |   3.89<sub>±00.02</sub> |
+|                  V/gcc | 0.111<sub>±0.001</sub> |   2.05<sub>±00.05</sub> + 232.05<sub>±01.95</sub> |   4.67<sub>±00.02</sub> |
+|                Crystal | 0.116<sub>±0.001</sub> |    3.74<sub>±00.01</sub> + 89.94<sub>±00.01</sub> |   5.34<sub>±00.09</sub> |
+|                V/clang | 0.118<sub>±0.000</sub> |   2.07<sub>±00.05</sub> + 219.86<sub>±00.78</sub> |   4.88<sub>±00.02</sub> |
+|                   Java | 0.161<sub>±0.002</sub> |  43.54<sub>±00.09</sub> + 116.76<sub>±02.21</sub> |   8.84<sub>±00.17</sub> |
+|                Node.js | 0.207<sub>±0.001</sub> |  45.03<sub>±00.01</sub> + 172.08<sub>±00.27</sub> |  10.60<sub>±00.11</sub> |
+|                  Scala | 0.245<sub>±0.003</sub> |  63.09<sub>±00.08</sub> + 145.79<sub>±01.32</sub> |  14.72<sub>±00.42</sub> |
+|                Nim/gcc | 0.293<sub>±0.001</sub> |   2.03<sub>±00.03</sub> + 584.95<sub>±04.18</sub> |  11.16<sub>±00.10</sub> |
+|              Nim/clang | 0.301<sub>±0.001</sub> |   2.36<sub>±00.01</sub> + 579.63<sub>±03.36</sub> |  11.49<sub>±00.11</sub> |
+|             Lua/luajit | 0.309<sub>±0.002</sub> |   2.71<sub>±00.06</sub> + 155.41<sub>±01.11</sub> |  12.79<sub>±00.36</sub> |
+|            Python/pypy | 0.617<sub>±0.003</sub> |  62.12<sub>±00.05</sub> + 247.40<sub>±01.95</sub> |  25.07<sub>±00.34</sub> |
+|                  Julia | 0.680<sub>±0.001</sub> | 312.61<sub>±00.26</sub> + 227.17<sub>±02.18</sub> |  25.34<sub>±00.31</sub> |
+|                 Racket | 0.791<sub>±0.005</sub> | 114.28<sub>±00.14</sub> + 251.89<sub>±01.03</sub> |  31.12<sub>±00.36</sub> |
+|       Ruby/truffleruby | 0.871<sub>±0.019</sub> | 231.12<sub>±02.61</sub> + 505.99<sub>±28.55</sub> |  59.37<sub>±01.37</sub> |
+|                    Lua | 1.056<sub>±0.003</sub> |   2.49<sub>±00.01</sub> + 200.06<sub>±00.13</sub> |  44.34<sub>±00.33</sub> |
+|           Ruby (--jit) | 1.118<sub>±0.005</sub> |  15.30<sub>±00.08</sub> + 184.61<sub>±00.73</sub> |  45.68<sub>±00.68</sub> |
+| Ruby/truffleruby (JVM) | 1.219<sub>±0.055</sub> | 375.11<sub>±03.25</sub> + 365.16<sub>±31.23</sub> |  79.17<sub>±03.57</sub> |
+|                 Python | 1.725<sub>±0.007</sub> |  12.03<sub>±00.08</sub> + 181.09<sub>±00.84</sub> |  72.90<sub>±00.73</sub> |
+|                   Ruby | 1.794<sub>±0.022</sub> |  14.79<sub>±00.07</sub> + 180.84<sub>±00.18</sub> |  75.20<sub>±01.40</sub> |
+|             Ruby/jruby | 3.094<sub>±0.053</sub> | 233.67<sub>±00.54</sub> + 877.14<sub>±01.42</sub> | 182.28<sub>±04.15</sub> |
 
 # Tests Execution
 
@@ -422,7 +422,7 @@ Notes:
 
 CPU: Intel(R) Xeon(R) E-2324G
 
-Base Docker image: Debian GNU/Linux trixie/sid
+Base Docker image: Debian GNU/Linux forky/sid
 
 | Language         | Version                         |
 | ---------------- | ------------------------------- |
@@ -447,27 +447,27 @@ Base Docker image: Debian GNU/Linux trixie/sid
 | Lua              | 5.4.7                           |
 | Lua/luajit       | 2.1.1748495995                  |
 | MLton            | 20241230                        |
-| Nim              | 2.2.4                           |
-| Node.js          | v24.5.0                         |
-| OCaml            | 5.3.0                           |
-| Odin             | dev-2025-08-nightly             |
-| PHP              | 8.4.11                          |
+| Nim              | 2.2.10                          |
+| Node.js          | v26.5.0                         |
+| OCaml            | 5.5.0                           |
+| Odin             | dev-2026-07-nightly:819fdc7     |
+| PHP              | 8.4.23                          |
 | Perl             | v5.40.1                         |
-| Python           | 3.13.5                          |
-| Python/pypy      | 7.3.20-final0 for Python 3.11.13 |
-| Racket           | "8.17"                          |
-| Ruby             | 3.4.5p51                        |
-| Ruby/jruby       | 10.0.2.0                        |
-| Ruby/truffleruby | 24.2.2                          |
-| Rust             | 1.89.0                          |
-| Scala            | 3.7.2                           |
-| Swift            | 6.1.2                           |
+| Python           | 3.14.6                          |
+| Python/pypy      | 7.3.23-final0 for Python 3.11.15 |
+| Racket           | "9.2"                           |
+| Ruby             | 4.0.6p0                         |
+| Ruby/jruby       | 10.1.0.0                        |
+| Ruby/truffleruby | 34.0.1                          |
+| Rust             | 1.97.1                          |
+| Scala            | 3.8.4                           |
+| Swift            | 6.3.3                           |
 | Tcl              | 8.6                             |
-| V                | 0.4.11 b9e5757                  |
-| Vala             | 0.56.18                         |
-| Zig              | 0.14.1                          |
-| clang/clang++    | 19.1.7 (3+b1)                   |
-| gcc/g++          | 14.2.0                          |
+| V                | 0.5.2 7647ce1                   |
+| Vala             | 0.56.19                         |
+| Zig              | 0.16.0                          |
+| clang/clang++    | 22.1.8 (1+b1)                   |
+| gcc/g++          | 16.1.0                          |
 
 ## Using Docker
 
